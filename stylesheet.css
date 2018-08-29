@@ -1,0 +1,104 @@
+/*
+*include padding in elements total
+*width and height
+*/
+*{
+box-sizing: border-box;
+}
+
+body {
+	font-family: FreeMono;
+	padding: 20px;
+	background: #ACD7ff;
+	color: #a7a7a7;
+	font-size: 25px;
+}
+
+.header {
+	background-color:#0085ff;
+	padding: 15px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.header h1 {
+    font-size: 60px;
+}
+
+.header h2 {
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #179;
+}
+
+.topnav a{
+	float: right;
+	display: block;
+	padding: 15px;
+	color:#ffffff;
+	text-align: center;
+}
+
+.leftcolumn {
+	float: left;
+	width: 65%;
+	padding: 5px;
+}
+
+.rightcolumn {
+	float: left;
+	width: 35%;
+	padding: 5px;
+}
+
+.card {
+background-color: white;
+padding: 30px;
+margin-top: 30px;	
+}
+
+/*Clear floats after the columns */
+.row:after {
+	content: "";
+	display: Table;
+	clear: both;
+}
+
+.fakeimg {
+	background-color: #003;
+	width: 100%;
+	padding: 5px;
+}
+
+.fakeimg iframe {
+	background-color: #003;
+	width: 100%;
+	padding: 5px
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+	font-size:
+}
+
+.eastcolumn {
+	float: left;
+	width: 25%;	
+}
+
+.centercolumn {
+	float: left;
+	width: 50%;
+}
+
+.westcolumn {
+	float: left;
+	width: 25%;
+}
